@@ -1,5 +1,5 @@
 class PawsGames < Formula
-  desc "7 terminal games for Paws — Dog Jump, Earth Online, Tetris, Snake, 2048, Breakout, Space Invaders"
+  desc "7 terminal games for Paws: Dog Jump, Tetris, Snake, 2048, Breakout & more"
   homepage "https://github.com/interesting-vibe-coding/paws-games"
   url "https://github.com/interesting-vibe-coding/paws-games/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "f492e77965d6e4991915646e815f78141b463c160a19e6c2610f833e7426e85e"
@@ -20,8 +20,8 @@ class PawsGames < Formula
   end
 
   test do
-    assert_predicate bin/"jump-high", :exist?
-    assert_predicate bin/"tetris", :exist?
-    assert_predicate bin/"snake", :exist?
+    assert_path_exists bin/"jump-high"
+    assert_path_exists bin/"tetris"
+    assert_path_exists bin/"snake"
   end
 end
