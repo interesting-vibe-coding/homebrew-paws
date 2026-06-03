@@ -3,11 +3,8 @@ class Paws < Formula
   homepage "https://github.com/interesting-vibe-coding/paws"
   license "MIT"
 
-  stable do
-    url "https://github.com/interesting-vibe-coding/paws/archive/refs/tags/v0.4.0.tar.gz"
-    sha256 "3831a757360847c5551013ab7ef6212c561131bd8ac549e3f1e9df740bff78db"
-    version "0.4.0"
-  end
+  url "https://github.com/interesting-vibe-coding/paws/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "55ae0732aecf1d1a53784864ed0fa3264835e731e0731dd057eff0f683c14710"
 
   head "https://github.com/interesting-vibe-coding/paws.git", branch: "main"
 
