@@ -4,9 +4,9 @@ class PawsGames < Formula
   license "MIT"
 
   stable do
-    url "https://github.com/interesting-vibe-coding/paws-games/archive/refs/tags/v0.3.0.tar.gz"
-    sha256 "6e399fc9362bd83a4ebc5e0cf8cf0949f45a69f783027ff8557301ce524f7a6f"
-    version "0.3.0"
+    url "https://github.com/interesting-vibe-coding/paws-games/archive/refs/tags/v0.4.0.tar.gz"
+    sha256 "f492e77965d6e4991915646e815f78141b463c160a19e6c2610f833e7426e85e"
+    version "0.4.0"
   end
 
   head "https://github.com/interesting-vibe-coding/paws-games.git", branch: "main"
