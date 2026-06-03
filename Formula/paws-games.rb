@@ -1,10 +1,9 @@
 class PawsGames < Formula
   desc "7 terminal games for Paws — Dog Jump, Earth Online, Tetris, Snake, 2048, Breakout, Space Invaders"
   homepage "https://github.com/interesting-vibe-coding/paws-games"
-  license "MIT"
-
   url "https://github.com/interesting-vibe-coding/paws-games/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "f492e77965d6e4991915646e815f78141b463c160a19e6c2610f833e7426e85e"
+  license "MIT"
 
   head "https://github.com/interesting-vibe-coding/paws-games.git", branch: "main"
 
