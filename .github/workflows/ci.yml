@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  audit:
+    name: Audit formulas
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tap local repo
+        run: brew tap interesting-vibe-coding/paws "$(pwd)"
+
+      - name: Audit paws formula
+        run: brew audit --strict interesting-vibe-coding/paws/paws
+
+      - name: Audit paws-games formula
+        run: brew audit --strict interesting-vibe-coding/paws/paws-games
