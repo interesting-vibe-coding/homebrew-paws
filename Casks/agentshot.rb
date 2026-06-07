@@ -1,6 +1,6 @@
 cask "agentshot" do
   version "0.1.0"
-  sha256 "e4a7a96af798cb59f95e1653d1fbff9258638d89ec793ce6b892b327b8cce7a1"
+  sha256 "35c802caba551dbe987ebaf62a738d5853c54200aeda388dd8852dec705b496e"
 
   url "https://github.com/interesting-vibe-coding/agentshot/releases/download/v#{version}/AgentShot.zip"
   name "AgentShot"
